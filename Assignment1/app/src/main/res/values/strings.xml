@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyQuiz</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_back">Back</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_score">Current Score</string>
+    <string name="button_skip">Skip</string>
+    <string name="button_submit">Submit</string>
+    <string name="help">MyQuiz app basically acts as a evaluation platform for your knowledge of prime number. You will be asked few questions about prime numbers and you will be expected to answer them correctly.
+        \n\nYou can use Check Score button in order to find your current score and can even reset your score using Reset button.
+        \n\nDo write us back in case you face any hurdles during the process.</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="03832f8eb8166966a60a5c769f3a1ad90eb1a915">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3ac561c152b6b1988f09d3cf21e0dd670c96742f/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_4cb3365ba73c3f9bd50a39441062aa2a88753dda/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_d3de4a580a04ab18ded727a4e3b16debf6ba66a2/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_c098c375d70384dbfb1bd9aa178ad074af86d363/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_7a2e300ec7ba6ecdad6a438aca625f894302b580/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_65996e9c54d03f1be2ed41f22d949726e1464809/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="402e4fed676078bba18d4b5fdd44057a41175532">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_dfdd5eb074a5fa2bbf14f7715ae9e3e07fe9440c/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_fa451618b62d195cf7b208a7042edd152ffa89e6/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_324490b161343196c4182baf643a820eec886291/classes.dex" />
+    </item>
+    <item
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/anshul/AndroidStudioProjects/Assignment2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_a2f6fbb0cc6d46adccc11ab87bd8dbbcc56d1089/classes.dex" />
+    </item>
+
+</items>

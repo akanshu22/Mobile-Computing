@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/accent_material_dark</color>
+    <color name="colorPrimaryDark">@color/background_floating_material_dark</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#FF5827</color>
+    <color name="colorRadio">#E77202</color>
+    <color name="colorButton">#B5005C</color>
+
+
+</resources>

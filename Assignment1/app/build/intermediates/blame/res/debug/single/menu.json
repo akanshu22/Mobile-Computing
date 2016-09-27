@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/anshul/AndroidStudioProjects/Assignment1/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/anshul/AndroidStudioProjects/Assignment1/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/anshul/AndroidStudioProjects/Assignment1/app/build/intermediates/res/merged/debug/menu/menu_help.xml",
+        "source": "/home/anshul/AndroidStudioProjects/Assignment1/app/src/main/res/menu/menu_help.xml"
+    }
+]
