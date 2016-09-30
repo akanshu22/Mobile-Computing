@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shared_linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.anshulkhantwal.anshul.datastoragehacks.SharedPreferencesHack"
+    tools:showIn="@layout/activity_sharedpreferences">
+
+    <TextView
+        android:id="@+id/shared_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences Hacks"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/shared_text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="(You haven't stored your shared preferences yet)"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#602861A3"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/shared_name_notsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name (Anshul)"
+                android:inputType="textPersonName"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/shared_name_onsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Name: Anshul Khantwal"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/shared_rollno_notsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Roll No (MT16010)"
+                android:inputType="textNoSuggestions"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/shared_rollno_onsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Roll No: MT16010"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/shared_email_notsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email (anshul16010@iiitd.ac.in)"
+                android:inputType="textWebEmailAddress"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/shared_email_onsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Email: anshul16010@iiitd.ac.in"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/shared_mobno_notsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No. (7417351331)"
+                android:inputType="phone"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/shared_mobno_onsave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Mobile No.: 7417351331"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/shared_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="onSave"
+            android:text="Save Shared Preferences"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/shared_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="onReset"
+            android:text="Reset Shared Preferences"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

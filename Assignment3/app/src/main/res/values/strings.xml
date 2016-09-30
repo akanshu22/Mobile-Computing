@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Data Storage Hacks</string>
+    <string name="action_settings">Exit</string>
+    <string name="font_list">sans-serif-condensed</string>
+    <string name="title_activity_sharedpreferences">Shared Preferences Hacks</string>
+    <string name="title_activity_internalstorage">Internal Storage Hacks</string>
+    <string name="title_activity_external_storage_hack">External Storage Hacks</string>
+    <string name="title_activity_sqlite_database_hack">SQLite Database Hacks</string>
+    <string name="title_activity_display_database">SQLite Database Hacks</string>
+</resources>

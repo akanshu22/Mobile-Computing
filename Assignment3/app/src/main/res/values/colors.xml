@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="voiletPrimary">#270E38</color>
+    <color name="voiletPrimaryDark">#5A1A78</color>
+    <color name="GreenPrimary">#30A958</color>
+    <color name="GreenPrimaryDark">#197846</color>
+    <color name="GreenLight">#39DD68</color>
+    <color name="YellowDark">#F4AE2F</color>
+</resources>
