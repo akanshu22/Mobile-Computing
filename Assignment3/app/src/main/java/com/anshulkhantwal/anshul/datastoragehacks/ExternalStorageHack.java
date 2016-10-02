@@ -92,7 +92,7 @@ public class ExternalStorageHack extends AppCompatActivity {
 
         if (isExternalStorageWritable()) {
             File file1, file2;
-            file1 = new File(Environment.getExternalStorageDirectory().toString(), private_dir);
+            file1 = new File(getExternalFilesDir(null).toString(), private_dir);
             if (!file1.exists()) {
                 file1.mkdirs();
             }
@@ -184,16 +184,17 @@ public class ExternalStorageHack extends AppCompatActivity {
         if (isExternalStorageReadable()) {
             File file1, file2;
             FileInputStream inputStream;
-            file1 = new File(Environment.getExternalStorageDirectory(), shared_dir);
+            file1 = new File(getExternalFilesDir(null), private_dir);
             if (!file1.exists()) {
                 Snackbar.make(this.findViewById(R.id.external_linear1), "Please enter a valid .txt filename. Make sure the file already exists.", Snackbar.LENGTH_SHORT).show();
             }
             if (text_filename.length() == 0) {
-                file2 = new File(Environment.getExternalStorageDirectory().getPath() + File.separatorChar + private_dir + File.separatorChar + "anshul.txt");
+                file2 = new File(file1.getAbsolutePath() + File.separatorChar + "anshul.txt");
             } else {
-                file2 = new File(Environment.getExternalStorageDirectory().getPath() + File.separatorChar + private_dir + File.separatorChar + text_filename);
+                file2 = new File(file1.getAbsolutePath() + File.separatorChar + text_filename);
             }
 
+            System.out.println(file2.getAbsolutePath());
             if (!file2.exists()) {
                 Snackbar.make(this.findViewById(R.id.external_linear1), "Please enter a valid .txt filename. Make sure the file already exists.", Snackbar.LENGTH_SHORT).show();
                 return;
@@ -280,14 +281,14 @@ public class ExternalStorageHack extends AppCompatActivity {
         if (isExternalStorageWritable()) {
             File file;
             if (text_filename.length() == 0) {
-                file = new File(Environment.getExternalStorageDirectory().getPath() + File.separatorChar + private_dir + File.separatorChar + "anshul.txt");
+                file = new File(getExternalFilesDir(null).getPath() + File.separatorChar + private_dir + File.separatorChar + "anshul.txt");
                 if (!file.exists()) {
                     Snackbar.make(this.findViewById(R.id.external_linear1), "Please enter a valid .txt filename. Make sure the file already exists.", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
                 file.delete();
             } else {
-                file = new File(Environment.getExternalStorageDirectory().getPath() + File.separatorChar + private_dir + File.separatorChar + text_filename);
+                file = new File(getExternalFilesDir(null).getPath() + File.separatorChar + private_dir + File.separatorChar + text_filename);
                 if (!file.exists()) {
                     Snackbar.make(this.findViewById(R.id.external_linear1), "Please enter a valid .txt filename. Make sure the file already exists.", Snackbar.LENGTH_SHORT).show();
                     return;
