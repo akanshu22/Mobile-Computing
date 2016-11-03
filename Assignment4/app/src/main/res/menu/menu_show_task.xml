@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anshulkhantwal.assignment4.showTask">
+    <item
+        android:id="@+id/action_back"
+        android:orderInCategory="100"
+        android:title="Back"
+        android:icon="@drawable/back"
+        app:showAsAction="always" />
+</menu>

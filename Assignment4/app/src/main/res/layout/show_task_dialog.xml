@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3cffff4a"
+    android:gravity="center"
+    android:id="@+id/showtaskdialog_linear">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#587451f5"
+        android:layout_margin="10dp"
+        android:padding="30dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Task Title"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:id="@+id/showtaskdialog_title"
+            android:textSize="@dimen/font_headline"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:text="Sample Task Description"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/showtaskdialog_description"
+            android:layout_marginTop="50dp"
+            android:textStyle="normal"
+            android:textSize="@dimen/font_subheading" />
+
+    </LinearLayout>
+</LinearLayout>

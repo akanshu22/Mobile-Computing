@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anshulkhantwal.assignment4.MainActivity">
+    <item
+        android:id="@+id/action_addtask"
+        android:orderInCategory="100"
+        android:title="@string/action_addtask"
+        android:icon="@drawable/add2"
+        app:showAsAction="always" />
+</menu>
