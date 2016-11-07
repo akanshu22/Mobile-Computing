@@ -3,4 +3,5 @@
     <string name="action_addtask">Add New Task</string>
     <string name="title_activity_show_task">To Do List</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_show_to_do_task">Show ToDo Task</string>
 </resources>

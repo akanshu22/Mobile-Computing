@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_84f74c63ecf295ef939ff9249c2fc584057c1dd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.1_369c23b19f9adda6629104b4527197850bf57ddb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.1_445dbc64d0120ad0654777c607e2da1ac5b6df8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-25.0.0_3d4f97ac222dcde537997dff0da67e92673cfa43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.1_f93c01978c44c79a7d6e1a11ea23c4c53429bc92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\support-annotations-25.0.0_5705fd71e4321f14ec08a6400bffce52d9c88d39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.1_701b0e794d5286cbb84e8a7b0783ea0d0e2d343a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.1_57d5fb96456c3a5139c2f2caf8da3426dd27ca20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_e649f68b2018481010965035ec2fa442aac27f66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_5fb850c3ae9ce27885b7c0a2d74402e1e1f0da44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-25.0.0_41f8fd84d82a0241972213c7e81205bfe8dcde03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.0.0_34cd35d7d2f9fc9c13e13d0383c7d85fb3bf815d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-design-24.2.1_083b8f37567c1640993b02ebb6fa92dbeda77217.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.1_ef7c5bca6beb068d28691159ca2de28e45ba09c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_ded759f5bf95ab53dd55d762cbf0039b04662602.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\internal_impl-24.2.1_cb9f92ae59f9192f8321425a614bb542128de3bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.1_e046049b0c37f4a164d1d332b6c64cacdf0ba73e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Bucky\Documents\GitHub\Mobile-Computing\Assignment4\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.0_e3116b21192e968137f1c4950195d654aedae2f2.jar" />
+    </item>
+
+</items>

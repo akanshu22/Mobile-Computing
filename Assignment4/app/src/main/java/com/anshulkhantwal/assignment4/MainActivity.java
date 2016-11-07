@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         recList.addOnItemTouchListener(new RecyclerViewItemClickListener(this, new RecyclerViewItemClickListener.OnItemClickListener() {
             @Override
             public void onItemSingleClick(View view, int position) {
-                Intent intent = new Intent("com.anshulkhantwal.assignment4.showTask");
+                Intent intent = new Intent(MainActivity.this,ShowToDoTask.class);
                 intent.putExtra("TASK_POSITION",position);
                 startActivity(intent);
             }
