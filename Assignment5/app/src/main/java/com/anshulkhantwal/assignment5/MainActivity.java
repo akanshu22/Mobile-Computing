@@ -6,6 +6,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.Toolbar;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView webcontent;
     AppCompatTextView title;
+    String content_data,title_data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,20 +36,23 @@ public class MainActivity extends AppCompatActivity {
         ConnectivityManager connMgr = (ConnectivityManager)
                 getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
-        if (networkInfo != null && networkInfo.isConnected()) {
-            new DownloadFromWeb().execute(new String[]{
-                    "https://www.iiitd.ac.in/about"
-            });
-        } else {
-            title.setText("Couldn't Download the data");
-            webcontent.setText("Please make sure that you are connected to Internet.");
+        if(savedInstanceState==null){
+            if (networkInfo != null && networkInfo.isConnected()) {
+                new DownloadFromWeb().execute(new String[]{
+                        "https://www.iiitd.ac.in/about"
+                });
+            } else {
+                title_data="Couldn't Download the data";
+                content_data="Please make sure that you are connected to Internet.";
+                title.setText("Couldn't Download the data");
+                webcontent.setText("Please make sure that you are connected to Internet.");
+            }
         }
     }
 
     private class DownloadFromWeb extends AsyncTask<String, Void, String>{
 
         ProgressDialog progressdialog;
-        String title_content;
         Document page;
 
         @Override
@@ -63,10 +68,10 @@ public class MainActivity extends AppCompatActivity {
         protected String doInBackground(String... urls) {
             try {
                 page = Jsoup.connect(urls[0]).get();
-                title_content = page.title();
-                String content = Html.fromHtml(page.select("p").eq(6).html()).toString() + "\n\n" + Html.fromHtml(page.select("p").eq(7).html()).toString();
+                title_data = page.title();
+                content_data = Html.fromHtml(page.select("p").eq(6).html()).toString() + "\n\n" + Html.fromHtml(page.select("p").eq(7).html()).toString();
                 Thread.sleep(2000);
-                return content;
+                return content_data;
 
             } catch (Exception e) {
                 return "Unable to retrieve web page. URL may be invalid.";
@@ -76,12 +81,28 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-            title.setText(title_content);
+            title.setText(title_data);
             webcontent.setText(result);
             Log.i("Anshul_Assignment5",result);
             System.out.print(page.html()+"\n</html>");
             progressdialog.dismiss();
         }
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        title_data = savedInstanceState.getString("Title");
+        content_data = savedInstanceState.getString("Content");
+        title.setText(title_data);
+        webcontent.setText(content_data);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("Title",title_data);
+        outState.putString("Content",content_data);
     }
 
     @Override
